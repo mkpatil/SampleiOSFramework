@@ -35,10 +35,7 @@ public class Frame: NSView {
     public func callReceivedIniOS() {
         print("Libray deployed in Mac successfully")
     }
-    
-    public func updatedfunctionForiOS() {
-        print("updatedfunctionForiOS")
-    }
+ 
 }
 #endif
 
@@ -55,10 +52,7 @@ public class Frame: UIView {
     public func callReceivedIniOS() {
         print("Libray deployed in iOS successfully")
     }
-    
-    public func updatedfunctionForiOS() {
-        print("updatedfunctionForiOS")
-    }
+
 }
 
 #endif
