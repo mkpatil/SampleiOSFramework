@@ -15,7 +15,9 @@ import Foundation
 #if os(macOS)
 import Cocoa
 import AppKit
-#elseif os(iOS)
+#endif
+
+#if os(iOS)
 import UIKit
 #endif
 
@@ -29,8 +31,14 @@ public class Frame: NSView {
         framer.getFrameName().draw(in: bounds)
         framer.callReceivedToFramer()
     }
+    
+    public func callReceivedIniOS() {
+        print("Libray deployed in Mac successfully")
+    }
 }
-#elseif os(iOS)
+#endif
+
+#if os(iOS)
 public class Frame: UIView {
     public override func draw(_ dirtyRect: CGRect) {
         super.draw(dirtyRect)
@@ -38,6 +46,10 @@ public class Frame: UIView {
         let framer = Framer()
         framer.getFrameName().draw(in: bounds)
         framer.callReceivedToFramer()
+    }
+    
+    public func callReceivedIniOS() {
+        print("Libray deployed in iOS successfully")
     }
 }
 
