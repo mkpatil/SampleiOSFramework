@@ -1,1 +1,0 @@
-../../../Target Support Files/Alamofire-macOS/Alamofire-macOS-umbrella.h
