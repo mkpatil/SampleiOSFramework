@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SampleiOSFramework"
-  spec.version      = "0.4.0"
+  spec.version      = "0.5.0"
   spec.summary      = "Sample iOS Framework created for mac and ios"
   spec.requires_arc = true
 
