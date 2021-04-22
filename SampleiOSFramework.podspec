@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    DESC
 
-  spec.homepage     = "https://github.com/patilmahesh-logitech/SampleiOSFramework"
+  spec.homepage     = "https://mkpatil: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@github.com/mkpatil/SampleiOSFramework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Mahesh Patil" => "mpatil1@logitech.com" }
+  spec.author             = { "Mahesh Patil" => "patil.mh24@gmail.com" }
   # Or just: spec.author    = "Mahesh Patil"
   # spec.authors            = { "Mahesh Patil" => "" }
   # spec.social_media_url   = "https://twitter.com/Mahesh Patil"
@@ -81,7 +81,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/patilmahesh-logitech/SampleiOSFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://mkpatil: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@github.com/mkpatil/SampleiOSFramework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
