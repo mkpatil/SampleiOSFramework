@@ -26,7 +26,7 @@ public class Frame: NSView {
     
     public override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
-        // Drawing code here.
+        
         let framer = Framer()
         framer.getFrameName().draw(in: bounds)
         framer.callReceivedToFramer()
@@ -42,7 +42,7 @@ public class Frame: NSView {
 public class Frame: UIView {
     public override func draw(_ dirtyRect: CGRect) {
         super.draw(dirtyRect)
-        // Drawing code here.
+        
         let framer = Framer()
         framer.getFrameName().draw(in: bounds)
         framer.callReceivedToFramer()
