@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
 
   #  When using multiple platforms
     spec.ios.deployment_target = "10.0"
-    spec.osx.deployment_target = "10.0"
+    spec.osx.deployment_target = "10.15"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
