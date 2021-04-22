@@ -34,7 +34,7 @@ public class Frame: NSView {
         
     }
     
-    public func callReceivedIniOS() {
+    public func isLibraryInstalledForMac() {
         print("Libray deployed in Mac successfully")
     }
  
@@ -51,7 +51,7 @@ public class Frame: UIView {
         framer.callReceivedToFramer()
     }
     
-    public func callReceivedIniOS() {
+    public func isLibraryInstalledForiOS() {
         print("Libray deployed in iOS successfully")
     }
 
