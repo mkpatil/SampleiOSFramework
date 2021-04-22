@@ -14,6 +14,7 @@
 import Foundation
 #if os(macOS)
 import Cocoa
+import AppKit
 #elseif os(iOS)
 import UIKit
 #endif
