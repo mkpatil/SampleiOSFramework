@@ -30,6 +30,8 @@ public class Frame: NSView {
         let framer = Framer()
         framer.getFrameName().draw(in: bounds)
         framer.callReceivedToFramer()
+        
+        
     }
     
     public func callReceivedIniOS() {
