@@ -63,10 +63,6 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   spec.platform     = :ios
-   spec.platform     = :ios, "10.0"
-   spec.platform     = :osx, "12.0"
-
   #  When using multiple platforms
     spec.ios.deployment_target = "10.0"
     spec.osx.deployment_target = "12.0"
@@ -119,8 +115,8 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "UIKit"
   # spec.frameworks = "UIKit", "AppKit"
-  spec.ios.framework  = 'UIKit'
-  spec.osx.framework  = 'AppKit'
+ # spec.ios.framework  = 'UIKit'
+ # spec.osx.framework  = 'AppKit'
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
